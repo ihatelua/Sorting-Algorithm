@@ -1,0 +1,26 @@
+.figure-style {
+    width : 5rem;
+    height : 20rem;
+    background-color : #9370DB;
+    border-radius: 0.5rem;
+    margin-left : 2.5rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top : 1.5rem;
+}
+#figure-div {
+    position: relative;
+    display: flex;
+    justify-content:center;
+    padding-top:10rem;
+}
+.main-div {
+        height: 42.5rem;
+}
+
+.start-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
