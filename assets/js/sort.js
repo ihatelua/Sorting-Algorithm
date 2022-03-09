@@ -40,6 +40,7 @@ const setFigure = () => {
     for(let i = 0;i<inputValueArr.length;i++){ 
         let newFigure = document.createElement("div"); // div요소를 생성 한다.
         figureDiv.appendChild(newFigure).classList.add("figure-style"); // 도형생성
+        //figureDiv.children[i].classList.add("stack1")
         newFigure.innerText=inputValueArr[i]; // 도형에 입력값 을 표시
     }
 
